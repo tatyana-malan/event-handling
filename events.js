@@ -23,6 +23,16 @@ function one () {
 }
 
 // CREATE FUNCTION two HERE
+function two () {
+  // First, we have to find the element:
+  var two = document.getElementById('two')
+
+  // Next, we add an event listener to it:
+  two.addEventListener('mouseenter', makeGreen)
+
+  // Finally, we add one to make the colour white again
+  two.addEventListener('mouseleave', makeWhite)
+}
 
 // CREATE FUNCTION three HERE
 
