@@ -44,7 +44,7 @@ function three () {
 // CREATE FUNCTION four HERE
 function four () {
   // First, we have to find the element:
-  var four = document.getElementById('three')
+  var four = document.getElementById('four')
   four.addEventListener('mouseenter', makeRed)
   four.addEventListener('mouseleave', makeWhite)
 }
