@@ -43,7 +43,7 @@ function makeBlue (evt) {
 }
 
 function makeGreen (evt) {
-  evt.target.style.backgroundColor = '#53FFA9'
+  evt.target.style.backgroundColor = '#32CD32'
 }
 
 function makeWhite (evt) {
